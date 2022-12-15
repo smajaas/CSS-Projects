@@ -1,0 +1,33 @@
+/* Color properties */
+/* Color Background-COLOR BACKGROUND */
+/* color names >140 */
+/* RGB 0-255 possible values */
+/* RGBA A-opacity (transperancy) 0-1*/
+
+body {
+  background: rgb(64, 64, 64);
+}
+
+#first {
+  color: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
+}
+
+#second {
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(16, 160, 200);
+}
+
+#four {
+  color: rgba(255, 0, 0, 1);
+  background: rgba(0, 0, 0, 1);
+}
+#five {
+  color: rgb(14, 2, 24);
+  background: rgba(222, 46, 140, 0.75);
+}
