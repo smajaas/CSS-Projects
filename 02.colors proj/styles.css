@@ -1,12 +1,18 @@
-.icon {
-  color: red;
-  font-size: 40px;
+body {
+  background: #f1f5f9;
 }
 
-#heading {
-  color: blue;
+.container {
+  background: #fff;
 }
 
-.container p {
-  color: grey;
+h3 {
+  color: #645cff;
+  text-transform: uppercase;
+}
+p {
+  color: #64748b;
+}
+.special-container p {
+  background: rgba(0, 0, 0, 0.9);
 }
