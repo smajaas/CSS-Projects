@@ -1,0 +1,48 @@
+/* CSS Box model 
+PADDING -  is a distance between the content and the edge of the element. padding, which creates space around elements, content
+
+MARGIN - which is going to be distance between the element and the screen or thE element and the other element, essentially, that would be dist. on the sides of the element, whether or not is going to be top, bottom, left and right. margin, which creates space around elements
+
+when it comes to padding and margin.
+
+We have full control over each side of an element, whether that's top, right, bottom and left.
+
+BORDER - essentially sits in between. what's also cool about the border, again, we able to target, specific border, whether that is going to be a bottom, whether that's going to be left.
+*/
+
+* {
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  background: red;
+  padding: 20px;
+  margin: 3rem;
+  /* border-bottom: 0.5rem dotted blueviolet; */
+  border-bottom-style: double;
+  border-bottom-color: green;
+  border-bottom-width: 20px;
+
+  /* border-style: solid;
+  border-width: 10px;
+  border-color: rgb(48, 210, 30); */
+  /* padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px; */
+}
+
+p {
+  background: blue;
+  border: 1rem dashed yellow;
+  margin: 4rem 4px 50px 10px;
+  /* margin: 20px 40px; */
+  /* padding: 40px; */
+  /* padding: 30px 60px; */
+  padding: 5px 20px 50px 40px;
+}
