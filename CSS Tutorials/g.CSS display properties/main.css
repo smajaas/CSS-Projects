@@ -1,0 +1,28 @@
+/* 
+Elements have it set by Default
+BLOCK : Always starts a new line and spans full width
+INLINE : Does not start a new line and spans only content
+*/
+
+.block {
+  background: blue;
+  color: #fff;
+  width: 300px;
+  /* margin-left: auto; */
+  margin: 2rem auto;
+  /* display: block;
+  display: inline; */
+}
+
+.inline {
+  background: red;
+  color: #fff;
+  /* display: inline;
+  display: block; */
+}
+
+/*HORIZONTAL CENTERING  */
+
+body {
+  text-align: center;
+}
