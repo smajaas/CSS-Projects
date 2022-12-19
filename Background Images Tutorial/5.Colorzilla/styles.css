@@ -1,0 +1,49 @@
+/* Background Image overlay */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: #fff;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.big-img {
+  background: url('./big.jpg') center/cover no-repeat fixed;
+}
+.small-img {
+  background: url('./Images/folder.jpg') center/cover no-repeat fixed;
+  /* Order must same as below for the shortcut */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.folder-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./big.jpg') center/cover no-repeat fixed;
+}
+
+.colorzilla {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 10%,
+    rgba(42, 248, 200, 0.7262255243894433) 54%,
+    rgba(253, 54, 36, 1) 69%,
+    rgba(252, 176, 69, 1) 81%,
+    rgba(253, 29, 29, 1) 100%,
+    rgba(252, 176, 69, 1) 100%,
+    rgba(252, 176, 69, 0.5660959452140231) 100%
+  );
+}
