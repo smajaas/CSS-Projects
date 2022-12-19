@@ -1,0 +1,39 @@
+/* background-repeat */
+/* background-size */
+/* background-position */
+div {
+  height: 300px;
+  color: #fff;
+  border: 2px solid red;
+}
+
+.big-img {
+  background: url('./big.jpg');
+  /* background-repeat: round; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: 20% 50%;
+}
+.small-img {
+  background: url('./small.jpg');
+  /* background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round; 
+  background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  background-position: right;
+  background-position: bottom;
+  background-position: top;
+  background-position: 100% 100%;
+}
+.folder-img {
+  background: url('./Images/folder.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
