@@ -1,0 +1,66 @@
+/* 
+Media Queries
+Responsive Design
+Style Elements on Different screen sizes
+min-width: ---starting from
+max-width: ---up to
+Most popular writing with Mobile first
+  */
+
+body {
+  background: yellow;
+}
+
+.banner {
+  background: brown;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+} */
+
+/* 
+@media screen and (min-width: 768px) {
+  body {
+    background: rgb(23, 22, 22);
+  }
+  .banner {
+    margin-top: 60px;
+    background: darkgrey;
+  }
+  h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+} */
+
+/* MAX WIDTH */
+@media screen and (max-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
