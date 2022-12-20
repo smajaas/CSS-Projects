@@ -1,5 +1,5 @@
 /* 
-Position static by defaul - always positioned according to the normal flow
+Position static by default - always positioned according to the normal flow
 position-relative - position relative to its normal position.
 top,bottom,left,right 
 */
@@ -8,6 +8,18 @@ top,bottom,left,right
 position:fixed - relative to viewport(screen),stays as we are scrolling will use other content to fill out the space
 
 */
+
+.nav {
+  background: red;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 div {
   border: 3px solid red;
@@ -20,9 +32,6 @@ div {
 .one {
   background: blue;
   color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 .two {
   background: green;
@@ -34,8 +43,8 @@ div {
   font-size: 20px;
   color: #222;
   /* position: absolute; */
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
 }
 
 .container {
@@ -53,3 +62,12 @@ div {
   left: 20%; 
   right: 40px;
 }  */
+
+/* 
+.one {
+  background: blue;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
